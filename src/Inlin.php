@@ -13,6 +13,7 @@ namespace aelvan\inlin;
 use craft\base\Plugin;
 use aelvan\inlin\variables\InlinVariable;
 use craft\web\twig\variables\CraftVariable;
+use craft\base\Model;
 
 use yii\base\Event;
 
