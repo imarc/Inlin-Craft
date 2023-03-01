@@ -35,7 +35,7 @@ class Inlin extends Plugin
         });
     }
 
-    protected function createSettingsModel(): ?craft\base\Model
+    protected function createSettingsModel(): ?Model
     {
         return new \aelvan\inlin\models\Settings();
     }
